@@ -53,7 +53,7 @@ h2{
 }
 #navbar li{
 	display: inline;
-	padding: 13px 16px;
+	padding: 5px 15px;
 	border-left: rgb(0, 0, 0);
 	background-color: rgb(255, 255, 255);
 	border-style: solid;
@@ -63,11 +63,12 @@ h2{
 	background-color: #ff0707;
 }
 #navbar a{
+	padding: 5px 5px;
 	color: rgb(0, 0, 0);
 	text-decoration: none;
 	width: 60px;
 	font-size: 15px;
-	font-family: "Bungee Inline";
+	font-family: "Merienda One";
 }
 #main{
 	float:right;
@@ -94,7 +95,7 @@ h2{
 	color: rgb(0, 0, 0);
 	text-decoration: none;
 	font-size: 25px;
-	font-family: "Piedra";
+	font-family: "Bungee Inline";
 }
 .sidetainer li{
 	padding: 10px;
