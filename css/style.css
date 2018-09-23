@@ -122,7 +122,7 @@ h2{
 }
 @media(max-width:600px){
 	#main-header{
-		letter-spacing: 10px;
+		letter-spacing: 8px;
 		font-size: 20px;
 	}
 }
