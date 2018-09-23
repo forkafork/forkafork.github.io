@@ -122,8 +122,8 @@ h2{
 }
 @media(max-width:600px){
 	#main-header{
-		letter-spacing: 8px;
-		font-size: 18px;
+		letter-spacing: 5px;
+		font-size: 16px;
 	}
 }
 @media(max-width:960px){
