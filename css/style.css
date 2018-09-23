@@ -1,0 +1,258 @@
+<<<<<<< HEAD
+
+body {
+    line-height: 1;
+	background: url('../images/bg.jpg');
+	margin: auto;
+	text-align: center;
+	width: 960px;
+}
+p{
+	font-family: "Martel Sans";
+}
+h2{
+	font-family: "Merienda One";
+	font-size: 30px;
+}
+.container{
+	margin:auto;
+	overflow:hidden;
+	border: rgb(0, 0, 0);
+	border-style: solid;
+	border-width: 0px 1px;
+	background-color: #f5f5f5;
+}
+.navtainer{
+	margin:auto;
+	overflow:hidden;
+	border: rgb(0, 0, 0);
+	border-style: solid;
+	border-width: 0px 1px;
+}
+#main-header{
+	background: url('../images/ban1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border: rgb(0, 0, 0);
+	border-style: solid;
+	border-width: 1px;
+	font-family: "Piedra";
+	color: #ffffff;
+	text-shadow: 3px 3px rgb(0, 0, 0);
+	letter-spacing: 20px;
+	font-size: 20px;
+}
+#navbar{
+	background-color: #ffe600;
+	color: rgb(0, 0, 0);
+	border: rgb(0, 0, 0);
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+}
+#navbar ul{
+	padding: 0;
+	list-style: none;
+}
+#navbar li{
+	display: inline;
+	padding: 13px 16px;
+	border-left: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	border-style: solid;
+	border-width: 1px;
+}
+#navbar li:hover{
+	background-color: #ff0707;
+}
+#navbar a{
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	width: 60px;
+	font-size: 15px;
+	font-family: "Bungee Inline";
+}
+#main{
+	float:right;
+	width:70%;
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+#sidebar{
+	float:left;
+	width:30%;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	background: #f5f5f5;
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-width: 0px 1px 0px 0px;
+}
+.sidetainer ul{
+	padding: 0;
+	list-style: none;
+}
+.sidetainer a{
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	font-size: 25px;
+	font-family: "Piedra";
+}
+.sidetainer li{
+	padding: 10px;
+}
+.sidetainer li:hover{
+	background-color: #ff0707;
+}
+#main-footer{
+	background: #ffe600;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	padding: 20px;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+}
+@media(max-width:600px){
+	#main{
+		width:100%;
+		float:none;
+	}
+	#sidebar{
+		width:100%;
+		float:none;
+	}
+}
+@media(max-width:960px){
+	body{
+		width:100%;
+	}
+=======
+
+body {
+    line-height: 1;
+	background: url('../images/bg.jpg');
+	margin: auto;
+	text-align: center;
+	width: 960px;
+}
+p{
+	font-family: "Martel Sans";
+}
+h2{
+	font-family: "Merienda One";
+	font-size: 30px;
+}
+.container{
+	margin:auto;
+	overflow:hidden;
+	border: rgb(0, 0, 0);
+	border-style: solid;
+	border-width: 0px 1px;
+	background-color: #f5f5f5;
+}
+.navtainer{
+	margin:auto;
+	overflow:hidden;
+	border: rgb(0, 0, 0);
+	border-style: solid;
+	border-width: 0px 1px;
+}
+#main-header{
+	background: url('../images/ban1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border: rgb(0, 0, 0);
+	border-style: solid;
+	border-width: 1px;
+	font-family: "Piedra";
+	color: #ffffff;
+	text-shadow: 3px 3px rgb(0, 0, 0);
+	letter-spacing: 20px;
+	font-size: 20px;
+}
+#navbar{
+	background-color: #ffe600;
+	color: rgb(0, 0, 0);
+	border: rgb(0, 0, 0);
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+}
+#navbar ul{
+	padding: 0;
+	list-style: none;
+}
+#navbar li{
+	display: inline;
+	padding: 13px 16px;
+	border-left: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	border-style: solid;
+	border-width: 1px;
+}
+#navbar li:hover{
+	background-color: #ff0707;
+}
+#navbar a{
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	width: 60px;
+	font-size: 15px;
+	font-family: "Bungee Inline";
+}
+#main{
+	float:right;
+	width:70%;
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+#sidebar{
+	float:left;
+	width:30%;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	background: #f5f5f5;
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-width: 0px 1px 0px 0px;
+}
+.sidetainer ul{
+	padding: 0;
+	list-style: none;
+}
+.sidetainer a{
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	font-size: 25px;
+	font-family: "Piedra";
+}
+.sidetainer li{
+	padding: 10px;
+}
+.sidetainer li:hover{
+	background-color: #ff0707;
+}
+#main-footer{
+	background: #ffe600;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	padding: 20px;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+}
+@media(max-width:600px){
+	#main{
+		width:100%;
+		float:none;
+	}
+	#sidebar{
+		width:100%;
+		float:none;
+	}
+}
+@media(max-width:960px){
+	body{
+		width:100%;
+	}
+>>>>>>> 4a19d0977b4d6a05c37970326718c292af31816f
+}
