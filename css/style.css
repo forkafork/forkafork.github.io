@@ -4,6 +4,7 @@ body {
 	margin: auto;
 	text-align: center;
 	width: 960px;
+	box-shadow: 3px 3px #000000;
 }
 p{
 	font-family: "Martel Sans";
@@ -27,7 +28,7 @@ h2{
 	border-style: solid;
 	border-width: 0px 1px;
 }
-#main-header{
+.main-header{
 	background-color: #f5f5f5;
 	border: rgb(0, 0, 0);
 	border-style: solid;
@@ -38,18 +39,18 @@ h2{
 	letter-spacing: 20px;
 	font-size: 20px;
 }
-#navbar{
+.navbar{
 	background-color: #ffe600;
 	color: rgb(0, 0, 0);
 	border: rgb(0, 0, 0);
 	border-style: solid;
 	border-width: 0px 0px 1px 0px;
 }
-#navbar ul{
+.navbar ul{
 	padding: 0;
 	list-style: none;
 }
-#navbar li{
+.navbar li{
 	display: inline;
 	padding: 5px 15px;
 	border-left: rgb(0, 0, 0);
@@ -57,10 +58,10 @@ h2{
 	border-style: solid;
 	border-width: 1px;
 }
-#navbar li:hover{
+.navbar li:hover{
 	background-color: #ff0707;
 }
-#navbar a{
+.navbar a{
 	padding: 5px 5px;
 	color: rgb(0, 0, 0);
 	text-decoration: none;
@@ -77,7 +78,7 @@ h2{
 #sidebar{
 	float:left;
 	width:30%;
-	height: 100%;
+	height: 600px;
 	padding: 10px;
 	box-sizing: border-box;
 	background: #f5f5f5;
@@ -85,24 +86,57 @@ h2{
 	border-style: solid;
 	border-width: 0px 1px 0px 0px;
 }
-.sidetainer ul{
+#sidetainer ul{
 	padding: 0;
 	list-style: none;
 }
-.sidetainer a{
+#sidetainer a{
 	color: rgb(0, 0, 0);
 	display: block;
 	text-decoration: none;
 	font-size: 25px;
-	font-family: "Bungee Inline";
+	font-family: "Merienda One";
 }
-.sidetainer li{
+#sidetainer li{
 	padding: 10px;
 }
-.sidetainer li:hover{
+#sidetainer li:hover{
 	background-color: #ff0707;
 }
-#main-footer{
+.profile{
+	float:top;
+	padding: 20px 20px;
+	box-sizing: border-box;
+}
+.pics{
+	background: url('../images/bg1.jpg');
+	background-attachment: fixed;
+	border-style: solid;
+	border-width: 1px;
+	border-bottom-width: 0px;
+}
+.info{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+img{
+	border-style: solid;
+	border-width: 1px;
+	margin: 10px;
+}
+table{
+	background-color: #ffe600;
+	width: 100%;
+	text-align: center;
+	font-family: "Martel Sans";
+	border-color: #000000;
+	border-style: solid;
+	border-width: 1px;
+}
+th, td{
+	padding: 5px;
+}
+.main-footer{
 	background: #ffe600;
 	color: rgb(0, 0, 0);
 	text-align: center;
@@ -121,7 +155,7 @@ h2{
 	}
 }
 @media(max-width:600px){
-	#main-header{
+	.main-header{
 		letter-spacing: 5px;
 		font-size: 16px;
 	}
@@ -129,5 +163,17 @@ h2{
 @media(max-width:960px){
 	body{
 		width:100%;
+	}
+}
+@media(max-width:600px){
+	.info{
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+}
+@media(max-width:760px){
+	.info{
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 }
