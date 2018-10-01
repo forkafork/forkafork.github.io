@@ -34,9 +34,9 @@ h2{
 	border-style: solid;
 	border-width: 1px;
 	font-family: "Piedra";
-	color: #000000;
+	color: #2c2b04;
 	text-shadow: 1px 1px rgb(122, 122, 122);
-	letter-spacing: 20px;
+	letter-spacing: 5px;
 	font-size: 20px;
 }
 .navbar{
